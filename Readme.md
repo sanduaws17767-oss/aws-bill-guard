@@ -147,8 +147,11 @@ My AWS account is on the Free plan, which ends in February 2027. I have a remind
 
 ## 9. What real users told me
 
-I sent the link to 10 people on WhatsApp and asked one question: "Was anything confusing?"
+I sent the link to 10 people in 4 countries: the UK, Sri Lanka, Canada and Australia. I asked one question: "Was anything confusing?"
 
-The tool has been used **[NUMBER]** times (counted in DynamoDB).
+- All 10 said the tool worked on their phones.
+- One friend in Australia sent me a screenshot of her result.
+- The tool has been used 29 times in its first day, counted in DynamoDB (this includes my own testing).
 
-**[What people found confusing, and what I changed — fill in after the weekend.]**
+Because CloudFront serves the page from edge locations near each visitor, my friends in Australia, Sri Lanka and Canada were not waiting on a server in London.
+
