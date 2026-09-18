@@ -1,0 +1,5 @@
+*.zip
+.pytest_cache/
+__pycache__/
+invoke-url.txt
+.vscode/
